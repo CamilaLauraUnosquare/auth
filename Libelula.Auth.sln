@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{21686834-A1B5-4EB2-906A-F5AB9AD8CCE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libelula.Authentication.Controllers", "src\Libelula.Authentication.Controllers\Libelula.Authentication.Controllers.csproj", "{E2D4E3C2-B2D8-49B0-AE76-BC487E42006B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libelula.Authentication.Models", "src\Libelula.Authentication.Models\Libelula.Authentication.Models.csproj", "{DF918AFB-15FA-42F5-ABC8-632F4A3E4BA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libelula.Authentication.Services", "src\Libelula.Authentication.Services\Libelula.Authentication.Services.csproj", "{899B7C7B-ECCF-4628-BA32-42C801058FF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libelula.Authentication.DataAccess", "src\Libelula.Authentication.DataAccess\Libelula.Authentication.DataAccess.csproj", "{6F560DA4-A267-4F12-B14F-97008C314D97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0ABCCB3A-1E23-4942-BB1E-ADDF0BA96AFE}"
+	ProjectSection(SolutionItems) = preProject
+		StyleCopAnalyzers.ruleset = StyleCopAnalyzers.ruleset
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2D4E3C2-B2D8-49B0-AE76-BC487E42006B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D4E3C2-B2D8-49B0-AE76-BC487E42006B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D4E3C2-B2D8-49B0-AE76-BC487E42006B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D4E3C2-B2D8-49B0-AE76-BC487E42006B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF918AFB-15FA-42F5-ABC8-632F4A3E4BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF918AFB-15FA-42F5-ABC8-632F4A3E4BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF918AFB-15FA-42F5-ABC8-632F4A3E4BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF918AFB-15FA-42F5-ABC8-632F4A3E4BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899B7C7B-ECCF-4628-BA32-42C801058FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899B7C7B-ECCF-4628-BA32-42C801058FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899B7C7B-ECCF-4628-BA32-42C801058FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899B7C7B-ECCF-4628-BA32-42C801058FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F560DA4-A267-4F12-B14F-97008C314D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F560DA4-A267-4F12-B14F-97008C314D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F560DA4-A267-4F12-B14F-97008C314D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F560DA4-A267-4F12-B14F-97008C314D97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2D4E3C2-B2D8-49B0-AE76-BC487E42006B} = {21686834-A1B5-4EB2-906A-F5AB9AD8CCE9}
+		{DF918AFB-15FA-42F5-ABC8-632F4A3E4BA6} = {21686834-A1B5-4EB2-906A-F5AB9AD8CCE9}
+		{899B7C7B-ECCF-4628-BA32-42C801058FF1} = {21686834-A1B5-4EB2-906A-F5AB9AD8CCE9}
+		{6F560DA4-A267-4F12-B14F-97008C314D97} = {21686834-A1B5-4EB2-906A-F5AB9AD8CCE9}
+	EndGlobalSection
+EndGlobal
